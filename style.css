@@ -17,13 +17,13 @@ h1 {
   padding: 0;
   font-size: 90px;
 }
+h6 {
+  color: #d8fff9;
+  position: absolute;
+  top: 9rem;
+}
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 60px;
-  }
-}
-@media screen and (max-width: 320px) {
-  h1 {
-    font-size: 40px;
   }
 }
