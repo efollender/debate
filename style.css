@@ -3,9 +3,22 @@
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
+  background: #7bce85;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
 }
 
 h1 {
   font-style: italic;
-  color: #373fff;
+  color: #de52d5;
+  margin: 0;
+  padding: 0;
+  font-size: 90px;
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 60px;
+  }
 }
